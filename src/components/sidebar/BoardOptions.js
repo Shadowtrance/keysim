@@ -15,6 +15,7 @@ import icon65 from "../../assets/icons/icon-65.png";
 import icon75 from "../../assets/icons/icon-75.png";
 import icon80 from "../../assets/icons/icon-80.png";
 import icon95 from "../../assets/icons/icon-95.png";
+import icon96 from "../../assets/icons/icon-96.png";
 import icon100 from "../../assets/icons/icon-100.png";
 import icon60wkl from "../../assets/icons/icon-60-wkl.png";
 import icon60hhkb from "../../assets/icons/icon-60-hhkb.png";
@@ -56,6 +57,7 @@ export default function BoardOptions() {
             { label: "75%", value: "75", img: icon75 },
             { label: "80%", value: "80", img: icon80 },
             { label: "95%", value: "95", img: icon95 },
+            { label: "96%", value: "96", img: icon96 },
             { label: "100%", value: "100", img: icon100 },
           ]}
           handler={(val) => {

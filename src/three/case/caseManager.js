@@ -26,6 +26,7 @@ import shadow_path_65 from "../../assets/shadows/65.png";
 import shadow_path_75 from "../../assets/shadows/75.png";
 import shadow_path_80 from "../../assets/shadows/80.png";
 import shadow_path_95 from "../../assets/shadows/95.png";
+import shadow_path_96 from "../../assets/shadows/96.png";
 import shadow_path_leftnum from "../../assets/shadows/leftnum.png";
 import shadow_path_numpad from "../../assets/shadows/numpad.png";
 import shadow_path_40ortho from "../../assets/shadows/40ortho.png";
@@ -49,6 +50,7 @@ const shadow_paths = {
   shadow_path_75,
   shadow_path_80,
   shadow_path_95,
+  shadow_path_96,
   shadow_path_leftnum,
   shadow_path_numpad,
   shadow_path_40ortho,
@@ -212,7 +214,7 @@ export default class CaseManager {
 
   createBadge() {
     if (this.badgeMesh) this.group.remove(this.badgeMesh);
-    if (this.layout.width > 18) {
+    if (this.layout.width > 18 && this.layout.height > 6) {
       let w = this.layout.width;
       let bw = 3;
       bw = w > 19 ? 4 : bw;
